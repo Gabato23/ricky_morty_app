@@ -36,7 +36,7 @@ export class CharacterListComponent implements OnInit {
 
   private hideScrollHeight = 200;
 
-  private showScrollHeight = 500;
+  private showScrollHeight = 5000;
 
   constructor(
     @Inject(DOCUMENT) private document:Document,

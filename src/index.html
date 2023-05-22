@@ -2,24 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>RickyMartinAPP</title>
+  <title>RICK AND MORTY</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="manifest" href="manifest.webmanifest">
   <meta name="theme-color" content="#1976d2">
-</head>
-<body>
   <style>
+    body {
+ 
+  background-size: cover;
+  background-color: #b8e418;
+  font-family: 'arial', sans-serif;
+  color: #b81616;
+}
+
     .loader-container {
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-    }
-
-    body {
-      background-color: #1f1e1e;
     }
 
     .lds-ripple {
@@ -31,7 +33,7 @@
 
     .lds-ripple div {
       position: absolute;
-      border: 4px solid #fff;
+      border: 4px solid #01b3e3;
       opacity: 1;
       border-radius: 50%;
       animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
@@ -59,8 +61,8 @@
       }
     }
   </style>
-
-
+</head>
+<body>
   <app-root>
     <div class="loader-container">
       <div class="lds-ripple">
